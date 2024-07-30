@@ -1,0 +1,17 @@
+﻿database,cluster,rf_criterion,rf_max_features,rf_max_depth,rf_min_samples_split,rf_min_samples_leaf,rf_n_estimators,svr_C,svr_epsilon,grb_criterion,gbr_max_features,gbr_max_depth,gbr_min_samples_split,gbr_min_samples_leaf,gbr_learning_rate,gbr_n_estimators,subsample
+pc_df,all,squared_error,None,10,3,1,100,0.4,1.9,squared_error,None,4,9,1,0.1,800,1
+df,all,friedman_mse,None,11,3,1,100,0.5,1.9,squared_error,None,4,2,1,0.1,800,1
+df,6,friedman_mse,None,10,2,1,100,1,0.3,squared_error,sqrt,11,5,1,0.15,200,1
+df,5,poisson,None,12,2,1,100,1,0.7,squared_error,None,10,4,1,0.1,500,1
+df,4,friedman_mse,None,11,2,1,100,0.7,0.2,squared_error,None,10,2,2,0.17,200,1
+df,3,squared_error,None,None,2,1,100,0.4,0.9,squared_error,None,None,2,3,0.14,950,1
+pc_df,4,friedman_mse,None,8,2,1,100,0.7,0.9,squared_error,None,7,2,1,0.15,200,1
+df,2,poisson,None,9,2,1,100,0.7,0.6,squared_error,None,7,5,3,0.01,350,1
+df,0,squared_error,None,12,2,2,100,1,0.4,squared_error,None,12,4,1,0.08,200,1
+pc_df,5,poisson,sqrt,15,3,1,100,0.7,0.4,squared_error,log2,11,3,1,0.12,250,1
+pc_df,6,poisson,None,14,3,2,100,1,0.4,squared_error,None,9,3,1,0.1,800,1
+pc_df,2,poisson,None,8,2,1,100,0.6,0.2,squared_error,None,2,2,1,0.2,400,1
+pc_df,1,poisson,log2,14,2,1,100,0.4,0.4,squared_error,None,5,5,1,0.1,800,1
+pc_df,3,poisson,sqrt,10,4,1,100,0.4,1.1,squared_error,sqrt,10,4,3,0.02,500,1
+pc_df,0,absolute_error,None,10,3,1,100,0.9,0.4,squared_error,None,10,5,1,0.17,250,1
+df,1,poisson,None,15,2,1,100,0.5,0.1,squared_error,None,3,9,2,0.18,400,1
