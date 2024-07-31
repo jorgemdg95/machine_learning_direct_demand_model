@@ -4,7 +4,7 @@ Our publicly accessible repository houses a comprehensive dataset of network, op
 ## Files in the folder:
 
 1. training_dataset.csv: Contains all observations used to train the machine learning models.
-2. FCM_Clustering_Model.ipynb: he Python notebook with the code for clustering agencies.
+2. FCM_Clustering_Model.ipynb: The Python notebook with the code for clustering agencies. The cluster number is reported here. 
 3. model_optimal_parameters.csv: Includes the optimal parameters for Random Forest, Gradient Boosting Regressor (GBR), and Support Vector Regression (SVR).
 4. Direct_Demand_Models.ipynb: The Python notebook with the code for training and applying the models.
 5. prediction_dataset.csv: The file that agencies need to modify to input their ridership data for prediction.
