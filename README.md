@@ -11,9 +11,12 @@ Our publicly accessible repository houses a comprehensive dataset of network, op
 6. predictions_results.csv: The output file containing the prediction results.
 7. Real world maps: Contains maps used to validate our interpretation of the clusters.
 
-## Notes:
+## Instructions:
 
-- Ensure all files are placed in the same directory for the code to function correctly.
-- Agencies should first execute the cluster model code to determine their cluster.
-- Next, agencies must run the Direct_Demand_Models.ipynb notebook to generate ridership predictions.
-- After running the code, predictions_results.csv will be overwrite and the results will be store on the new version.
+
+- Place all files are placed in the same directory for the code to function correctly.
+- Add the information of your agency to the prediction_dataset.csv.
+- Ensure all file names are as instructed above.
+- You should first execute the cluster model code to determine the cluster of each observation.
+- Next, you must run the Direct_Demand_Models.ipynb notebook to generate ridership predictions.
+- After running the code, predictions_results.csv will be overwritten with the new results.
